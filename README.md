@@ -1,4 +1,8 @@
 # rn-cloudinary-demo
+This is a react-native IOS module to interact with the Cloudinary APIs for Image and Video management.
+
+- [Cloudinary APIs - Video Management](http://cloudinary.com/documentation/video_management)
+- [Cloudinary APIs - Image Management](http://cloudinary.com/documentation/upload_images)
 
 Sample Useage:
 
@@ -66,3 +70,9 @@ Progress Response from Event Subscription:
 2015-05-14 23:23:46.323 [info][tid:com.facebook.React.JavaScript] {"bytesWritten":"32768","totalWritten":"819200","totalExpected":"830410"}
 2015-05-14 23:23:46.323 [info][tid:com.facebook.React.JavaScript] {"bytesWritten":"11210","totalWritten":"830410","totalExpected":"830410"}
 ```
+## Current Status
+- [x] basic module completed with hard coded sample file
+- [ ] pass in configuration API keys in initialization
+- [ ] allow user to pass in file name for image/video upload
+- [ ] allow user to pass in base64 encoded string for image
+- [ ] support cloudinary url api for image/video manipulation
